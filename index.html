@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Movimento Juntos pelo Bem — Início</title>
+    <meta name="description" content="ONG Movimento Juntos pelo Bem — Transformando vidas por meio de educação, saúde ou meio ambiente">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <!-- header.html (fragmento) -->
+    <header class="site-header" role="banner">
+        <div class="container">
+            <div class="brand" role="img" aria-label="Logotipo Movimento Juntos pelo Bem">
+                <img src="assets/logo.png" alt="Movimento Juntos pelo Bem" class="logo">
+                <div>
+                    <div class="title">Movimento Juntos pelo Bem</div>
+                    <div class="sr-only">Organização sem fins lucrativos</div>
+                </div>
+            </div>
+
+            <!-- Hamburger / toggle -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+            <label for="nav-toggle" class="hamburger" aria-hidden="false" aria-label="Abrir menu de navegação">☰</label>
+
+            <!-- Desktop nav -->
+            <nav class="main-nav" role="navigation" aria-label="Navegação principal">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+
+                    <li class="nav-item">
+                        <a href="projetos.html" aria-haspopup="true">Projetos</a>
+                        <div class="submenu" role="menu" aria-label="Submenu Projetos">
+                            <a role="menuitem" href="projetos.html#educacao">Educação</a>
+                            <a role="menuitem" href="projetos.html#alimentacao">Distribuição de Cestas</a>
+                            <a role="menuitem" href="projetos.html#capacitacao">Capacitação</a>
+                        </div>
+                    </li>
+
+                    <li><a href="cadastro.html">Doação</a></li>
+                </ul>
+            </nav>
+
+            <!-- Mobile menu (aparecerá quando #nav-toggle checked) -->
+            <div class="mobile-menu" role="menu" aria-label="Menu móvel">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="cadastro.html">Doação</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <main id="main-content">
+        <section aria-labelledby="sobre">
+            <h2 id="sobre">Quem Somos</h2>
+            <p>O Movimento Juntos pelo Bem é uma organização sem fins lucrativos dedicada a apoiar comunidades vulneráveis por meio
+                de educação, segurança alimentar e capacitação.</p>
+            <figure>
+                <img src="img/2.jpg"
+                    alt="Voluntários em ação distribuindo materiais">
+                <figcaption>Voluntários em ação — projeto de educação comunitária</figcaption>
+            </figure>
+        </section>
+
+        <section aria-labelledby="impacto">
+            <h2 id="impacto">Nosso Impacto</h2>
+            <ul>
+                <li>15 anos de atuação</li>
+                <li>+50.000 vidas atendidas</li>
+                <li>Programas de educação, alimentação e formação profissional</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="chamada">
+            <h2 id="chamada">Como ajudar</h2>
+            <p>Você pode se voluntariar, doar recursos ou apoiar campanhas específicas. Para se cadastrar como
+                voluntário ou doador, acesse a página de cadastro.</p>
+            <p><a href="cadastro.html">Ir para cadastro</a></p>
+         </section>
+    </main>
+
+    <aside aria-labelledby="noticias">
+        <h2 id="noticias">Notícias e Atualizações</h2>
+        <article>
+            <h3>Campanha de inverno</h3>
+            <p>Arrecadação de cobertores e agasalhos — veja como participar.</p>
+        </article>
+    </aside>
+
+    <footer id="contato">
+        <h2>Contato</h2>
+        <address>
+            <p>Movimento Juntos pelo Bem — Rua da Iborepi, 123 — São Paulo - SP</p>
+            <p>Email: <a href="mailto:contato@juntospelobem.org.br">contato@juntospelobem.org.br</a></p>
+            <p>Telefone: (11) 1234-7890</p>
+        </address>
+        <p>&copy; 2025 Movimento Juntos pelo Bem</p>
+    </footer>
+
+<!-- footer (pode incluir footer padrão) -->
+<footer class="site-footer" role="contentinfo">
+    <div class="container">
+        <div>
+            <strong>Movimento Juntos pelo Bem</strong><br>
+            contato@juntospelobem.org.br
+        </div>
+        <div>
+            &copy; 2025 Movimento Juntos pelo Bem
+        </div>
+    </div>
+</footer>
+
+
+</body>
+
+</html>

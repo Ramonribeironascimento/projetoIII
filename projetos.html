@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Projetos — Movimento Juntos pelo Bem</title>
+    <meta name="description" content="Projetos sociais, voluntariado e formas de doação.">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <!-- header.html (fragmento) -->
+    <header class="site-header" role="banner">
+        <div class="container">
+            <div class="brand" role="img" aria-label="Logotipo Movimento Juntos pelo Bem">
+                <img src="assets/logo.png" alt="Movimento Juntos pelo Bem" class="logo">
+                <div>
+                    <div class="title">Movimento Juntos pelo Bem</div>
+                    <div class="sr-only">Organização sem fins lucrativos</div>
+                </div>
+            </div>
+
+            <!-- Hamburger / toggle -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+            <label for="nav-toggle" class="hamburger" aria-hidden="false" aria-label="Abrir menu de navegação">☰</label>
+
+            <!-- Desktop nav -->
+            <nav class="main-nav" role="navigation" aria-label="Navegação principal">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+
+                    <li class="nav-item">
+                        <a href="projetos.html" aria-haspopup="true">Projetos</a>
+                        <div class="submenu" role="menu" aria-label="Submenu Projetos">
+                            <a role="menuitem" href="projetos.html#educacao">Educação</a>
+                            <a role="menuitem" href="projetos.html#alimentacao">Distribuição de Cestas</a>
+                            <a role="menuitem" href="projetos.html#capacitacao">Capacitação</a>
+                        </div>
+                    </li>
+                    <li><a href="cadastro.html">Doação</a></li>
+                </ul>
+            </nav>
+
+            <!-- Mobile menu (aparecerá quando #nav-toggle checked) -->
+            <div class="mobile-menu" role="menu" aria-label="Menu móvel">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="cadastro.html">Doação</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section aria-labelledby="educacao">
+            <h2 id="educacao">Educação para Todos</h2>
+            <p>Reforço escolar, distribuição de material e acompanhamento pedagógico para crianças e adolescentes.</p>
+            <figure>
+                <img src="img/10.jpg" alt="Crianças em sala de aula">
+                <figcaption>Aulas e material didático</figcaption>
+            </figure>
+            <p>Como participar: oportunidades para voluntários (professores, monitores) e doadores.</p>
+        </section>
+
+        <section aria-labelledby="alimentacao">
+            <h2 id="alimentacao">Combate à Fome</h2>
+            <p>Distribuição de cestas básicas e refeições, além de ações de segurança alimentar.</p>
+            <figure>
+                <img src="img/6.jpg"
+                    alt="Distribuição de alimentos">
+                <figcaption>Campanhas de arrecadação e distribuição</figcaption>
+            </figure>
+            <p>Formas de apoiar: doações financeiras, alimentos não perecíveis e participação em mutirões.</p>
+        </section>
+
+        <section aria-labelledby="capacitacao">
+            <h2 id="capacitacao">Capacitação Profissional</h2>
+            <p>Oficinas, cursos e parcerias para inserir jovens e adultos no mercado de trabalho.</p>
+            <figure>
+                <img src="img/1.jpg"
+                    alt="Oficina de capacitação profissional">
+                <figcaption>Oficinas e cursos profissionalizantes</figcaption>
+            </figure>
+        </section>
+
+        <section aria-labelledby="voluntariado">
+            <h2 id="voluntariado">Voluntariado</h2>
+            <p>Confira as oportunidades e requisitos. Para se candidatar, preencha o formulário de cadastro.</p>
+            <p><a href="cadastro.html">Quero ser voluntário / doador</a></p>
+        </section>
+        
+        <section id="projectsGrid" class="projects-grid">
+            <!-- os projetos serão inseridos dinamicamente aqui -->
+        </section>
+        
+    </main>
+
+
+<!-- footer (pode incluir footer padrão) -->
+<footer class="site-footer" role="contentinfo">
+    <div class="container">
+        <div>
+            <strong>Movimento Juntos pelo Bem</strong><br>
+            contato@juntospelobem.org.br
+        </div>
+        <div>
+            &copy; 2025 Movimento Juntos pelo Bem
+        </div>
+    </div>
+</footer>
+
+
+</body>
+
+</html>
